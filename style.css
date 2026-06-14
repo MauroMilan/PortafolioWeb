@@ -17,3 +17,11 @@
     height: 60px;
     width: 100px;
 }
+
+.imgProyect{
+    transition: 0.3s;
+}
+.imgProyect:hover{
+        filter: brightness(50%);
+}
+

@@ -1,6 +1,31 @@
+body{
+    background-color: #DCE3E8;
+}
+
+#header{
+     background-color: #DCE3E8;
+}
+
+.navbar{
+    margin-block-start: 40px;
+}
+
+
+
+.title{
+    font-family: "Courier Prime", monospace;
+
+}
+
+.paragraph{
+font-family: 'Space Mono', monospace;
+    font-weight: 400; /* Regular para los bloques de texto */
+    font-size: 14px;  /* Este tipo de fuente luce mejor en tamaños pequeños */
+    line-height: 1.6;/
+}
+
 #imgHero{
-    width: 350px;
-    height: 350px;
+    
 }
 
 #escuelaIcono{
@@ -23,5 +48,11 @@
 }
 .imgProyect:hover{
         filter: brightness(50%);
+}
+
+#proyects{
+  
+    align-items: center;
+    
 }
 

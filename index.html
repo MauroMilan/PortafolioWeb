@@ -7,19 +7,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
     <title>Mauro Milán</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <header>
+    <header id="header">
         <!-- As a link -->
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Inicio</a>
-                <a class="navbar-brand" href="#">Sobre mí</a>
-                <a class="navbar-brand" href="#">Proyectos</a>
-                <a class="navbar-brand" href="#">Contactos</a>
+        <nav class="navbar navbar-expend">
+            <div class="container-fluid justify-content-center">
+                <a class="nav-link mx-4 title" href="#">inicio</a>
+                <a class="nav-link  mx-4 title" href="#">sobre mí</a>
+                <a class="nav-link  mx-4  title" href="#">proyectos</a>
+                <a class="nav-link  mx-4  title" href="#">contactos</a>
             </div>
         </nav>
     </header>
@@ -29,21 +40,31 @@
         <!-- hero -->
         <section id="hero">
             <div class="container">
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-6">
-                        <h2>Hola! Soy Mauro Milán</h2>
+                        <h5 class="title">hola! soy Mauro Milán</h5>
 
-                        <h1>Desarrollador de software</h1>
+                        <h1 class="title">Desarrollador de software</h1>
 
-                        <p>Convierto ideas en soluciones digitales útiles,
+                        <p class="paragraph">Convierto ideas en soluciones digitales útiles,
                             elegantes y funcionales. Me apasiona crear
                             experiencias que generen impacto mientras aprendo
                             cada dia algo nuevo.
                         </p>
+
+                        <div>
+                            <button type="button" class="btn btn-dark">ver proyectos</button>
+                            <button type="button" class="btn btn-light">hablemos</button>
+
+                        </div>
                     </div>
 
                     <div class="col-6">
-                        <img id="imgHero" class="container-fluid" src="./iconos/imgport.jpg">
+                        <!-- Imagen con un marco negro fino y una sombra sólida desplazada -->
+                        <img id="imgHero" src="iconos/minimalis4.avif" class="img-fluid border border-dark" alt="Retro modern frame"
+                            style="box-shadow: 8px 8px 0px #000000;">
+                        <!-- Puedes cambiar #000000 por un tono slate blue, terracota o pastel si prefieres -->
+
                     </div>
                 </div>
             </div>
@@ -62,7 +83,8 @@
                         </div>
 
                         <div class="row">
-                            <p>Estudiante de desarrollo de software con experiencia en proyectos de programación y
+                            <p class="paragraph">Estudiante de desarrollo de software con experiencia en proyectos de
+                                programación y
                                 desarrollo web.</p>
                         </div>
                     </div>
@@ -74,7 +96,8 @@
                         </div>
 
                         <div class="row">
-                            <p>Participé en un bootcamp de desarrollo web, dominando HTML, CSS, JavaScript y Git/GitHub
+                            <p class="paragraph">Participé en un bootcamp de desarrollo web, dominando HTML, CSS,
+                                JavaScript y Git/GitHub
                                 mediante metodologías ágiles y trabajo colaborativo.</p>
                         </div>
                     </div>
@@ -85,7 +108,8 @@
                         </div>
 
                         <div class="row ">
-                            <p>Experiencia real en desarrollo web y hackathons. Destaco en diseño de interfaces, control
+                            <p class="paragraph">Experiencia real en desarrollo web y hackathons. Destaco en diseño de
+                                interfaces, control
                                 de
                                 versiones y metodologías de trabajo en equipo.</p>
                         </div>
@@ -94,14 +118,15 @@
             </div>
         </section>
 
-        <section id="proyects">
-            <div class="row">
+        <section id="proyects" class="container d-grid">
+            <div class="row align-items-center">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="iconos/imgCafeAurora.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cafetería Aurora</h5>
-                            <p class="card-text">Sitio web moderno y minimalista para una cafetería artesanal. Interfaz
+                            <h5 class="card-title title">Cafetería Aurora</h5>
+                            <p class="card-text paragraph">Sitio web moderno y minimalista para una cafetería artesanal.
+                                Interfaz
                                 optimizada para móviles con una experiencia de usuario fluida.</p>
                             <a href="#" class="btn btn-primary">Ir</a>
                         </div>
@@ -112,8 +137,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="iconos/Sportiva Sport.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Sportiva Sport</h5>
-                            <p class="card-text">Landing page para una tienda de deportes en el Mundial 2026. Estética
+                            <h5 class="card-title title">Sportiva Sport</h5>
+                            <p class="card-text paragraph">Landing page para una tienda de deportes en el Mundial 2026.
+                                Estética
                                 dinámica, diseño responsivo y maquetación limpia enfocada en la conversión web.</p>
                             <a href="#" class="btn btn-primary">Ir</a>
                         </div>
@@ -124,11 +150,12 @@
                     <div class="card" style="width: 18rem;">
                         <img src="iconos/Nexora.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Nexora</h5>
-                            <p class="card-text">Red social de orientación vocacional diseñada para conectar estudiantes
+                            <h5 class="card-title title">Nexora</h5>
+                            <p class="card-text paragraph">Red social de orientación vocacional diseñada para conectar
+                                estudiantes
                                 STEM con profesionales del sector. Interfaz moderna y limpia enfocada en la creación de
                                 comunidades y mentorías.</p>
-                            <a href="#" class="btn btn-primary">Ir</a>
+                            <a href="#" class="btn btn-primary title">Ir</a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +170,7 @@
                 <div class="row">
                     <form class="container-fluid">
                         <div class="row mb-3">
-                            <label for="inputNombre" class="form-label">Nombre:</label>
+                            <label for="inputNombre" class="form-label paragraph">Nombre:</label>
                             <input type="text" class="form-control w-50" id="inputNombre"
                                 placeholder="Escribe tu nombre aquí..." required>
 
@@ -155,20 +182,20 @@
                 <div class="row">
                     <form class="container-fluid">
                         <div class="row mb-3">
-                            <label for="inputNombre" class="form-label">Correo:</label>
+                            <label for="inputNombre" class="form-label paragraph">Correo:</label>
                             <input type="text" class="form-control w-50" id="inputCorreo"
                                 placeholder="Escribe tu correo aquí..." required>
 
                         </div>
 
                         <div class="mb-3">
-                            <label for="textareaMensaje" class="form-label">Mensaje:</label>
+                            <label for="textareaMensaje" class="form-label paragraph">Mensaje:</label>
                             <textarea class="form-control w-75" id="textareaMensaje" rows="4"
                                 placeholder="Escribe tu mensaje o consulta aquí..." required></textarea>
                         </div>
 
                         <div class="mb-3">
-                            <button class="btn btn-primary" type="submit">Button</button>
+                            <button class="btn btn-primary paragraph" type="submit">Button</button>
                         </div>
                     </form>
 
@@ -180,10 +207,10 @@
         </section>
 
         <footer class="py-3 my-4">
-            <h3 class="nav justify-content-center border-bottom pb-3 mb-3">
+            <h3 class="nav justify-content-center border-bottom pb-3 mb-3 title">
                 Gracias por visitar mi página
             </h3>
-            <p class="text-center text-body-secondary">© 2026 Derechos Reservados</p>
+            <p class="text-center text-body-secondary paragraph">© 2026 Derechos Reservados</p>
         </footer>
 
     </main>

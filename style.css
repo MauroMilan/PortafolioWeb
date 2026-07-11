@@ -1,58 +1,120 @@
-body{
-    background-color: #DCE3E8;
+body {
+
+    background-color: #0A0A0A;
 }
 
-#header{
-     background-color: #DCE3E8;
+#header {
+    background-color: #0A0A0A;
 }
 
-.navbar{
-    margin-block-start: 40px;
-}
-
-
-
-.title{
-    font-family: "Courier Prime", monospace;
-
-}
-
-.paragraph{
-font-family: 'Space Mono', monospace;
-    font-weight: 400; /* Regular para los bloques de texto */
-    font-size: 14px;  /* Este tipo de fuente luce mejor en tamaños pequeños */
-    line-height: 1.6;/
-}
-
-#imgHero{
-    
-}
-
-#escuelaIcono{
+.navbar {
     height: 60px;
-    width: 100px;
+    align-items: end;
+    background-color: #0F1115;
+
 }
 
-#equipoIcono{
-    height: 60px;
-    width: 100px;
+.anchorNav {
+
+    text-decoration: none;
+
+    transition: color 0.3s ease;
 }
 
-#desarrolloIcono{
-    height: 60px;
-    width: 100px;
+.anchorNav:hover {
+    color: #C9A227;
 }
 
-.imgProyect{
-    transition: 0.3s;
-}
-.imgProyect:hover{
-        filter: brightness(50%);
+
+
+
+.title {
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #FAFAFA;
 }
 
-#proyects{
-  
-    align-items: center;
-    
+
+.paragraph {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #A1A1AA;
+
 }
 
+
+#hero {
+    padding: 30px;
+    justify-content: center;
+    height: 80%;
+    background-color: #0F1115;
+}
+
+#name {
+    color: #C9A227;
+}
+
+#nameJob {
+    transition: color 0.3s ease;
+}
+
+#nameJob:hover {
+    color: #C9A227;
+}
+
+
+#hero h1 {
+    font-size: 70px;
+}
+
+
+#imgHero {
+
+    border-radius: 4%;
+
+    box-shadow: 0 25px 60px rgba(40, 50, 70, 0.5);
+
+}
+
+
+#btnProyects {
+    background-color: #FAFAFA;
+    font-family: "Manrope", sans-serif;
+
+}
+
+#btnProyects:hover {
+    background-color: #FAFAFA;
+    font-family: "Manrope", sans-serif;
+
+}
+
+
+
+#btnContact {
+    background-color: #C9A227;
+       font-family: "Manrope", sans-serif;
+}
+
+#layout {
+    padding: 50px;
+
+}
+
+
+
+.icon {
+    color: #C9A227;
+}
+
+
+
+.card {
+    background-color: #0F1115;
+}
+
+#copyright {
+    color: #FAFAFA;
+}

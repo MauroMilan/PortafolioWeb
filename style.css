@@ -79,13 +79,13 @@ body {
 }
 
 
-#btnProyects {
+.secundaryBtn {
     background-color: #FAFAFA;
     font-family: "Manrope", sans-serif;
 
 }
 
-#btnProyects:hover {
+.secondaryBtn:hover {
     background-color: #FAFAFA;
     font-family: "Manrope", sans-serif;
 
@@ -93,9 +93,31 @@ body {
 
 
 
-#btnContact {
+.primaryBtn {
     background-color: #C9A227;
        font-family: "Manrope", sans-serif;
+}
+
+.primaryBtn:hover {
+    border:2px solid #C9A227;
+    background-color: #d1a000;
+  
+
+}
+
+.secundaryBtn{
+           font-family: "Manrope", sans-serif;
+              background-color: #FAFAFA;
+                  color: #0F1115;
+            
+}
+
+.secundaryBtn:hover{
+       
+              background-color: #b3acac;
+         
+              
+
 }
 
 #layout {

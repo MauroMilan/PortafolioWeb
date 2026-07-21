@@ -21,14 +21,35 @@
     <!-- navbar -->
     <header id="header">
         <!-- As a link -->
-        <nav class="navbar mb-1">
-            <div class="container-fluid justify-content-end">
-                <a class=" mx-4 title anchorNav" href="#">Sobre mí</a>
-                <a class=" mx-4 title anchorNav" href="#">Trayectoria</a>
-                <a class=" mx-4 title anchorNav" href="#">Proyectos</a>
-                <a class=" mx-4 title anchorNav" href="#">Contáctame</a>
+        <nav class="navbar navbar-expand-lg titleNav navbar-light">
+            <div class="container-fluid text-center text-md-center ">
+                <a class="navbar-brand titleNav NavOptionCheck " href="#header">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul
+                        class="navbar-nav d-flex container-fluid text-md-center justify-content-center" >
+                        <li class="nav-item  ">
+                            <a class="nav-link optionNav NavOptionCheck" aria-current="page" href="#hero">sobre mi</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link optionNav NavOptionCheck " href="#layout">trayectoria</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link optionNav NavOptionCheck" href="#proyects">proyectos</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link optionNav NavOptionCheck"  href="#contact">contactame</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
         </nav>
+
     </header>
 
     <!-- main -->
@@ -118,94 +139,93 @@
 
 
         <!------------------------Proyects cards------------------------>
-      
-<section id="proyects">
-    <div class="container">
-        <div class="row justify-content-center g-4">
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="card w-100 h-100">
-                    <img src="iconos/Nexora.png" class="card-img-top" alt="...">
+        <section id="proyects">
+            <div class="container">
+                <div class="row justify-content-center g-4">
 
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title title text-center">Nexora</h5>
+                    <div class="col-12 col-md-6 col-lg-4 d-flex">
+                        <div class="card w-100 h-100">
+                            <img src="iconos/Nexora.png" class="card-img-top" alt="...">
 
-                        <p class="card-text paragraph flex-grow-1">
-                            Red social de orientación vocacional que conecta a los
-                            estudiantes con mentores profesionales. Diseño responsivo. Desarrollo con Spring Boot, Html, Css y Mysql.
-                        </p>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title text-center">Nexora</h5>
 
-                        <div class="text-center">
-                            <a href="#" class="btn btn-primary disabled" target="_blank">
-                                En proceso
-                            </a>
+                                <p class="card-text paragraph flex-grow-1">
+                                    Red social de orientación vocacional que conecta a los
+                                    estudiantes con mentores profesionales. Diseño responsivo. Desarrollo con Spring
+                                    Boot, Html, Css y Mysql.
+                                </p>
+
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary disabled" target="_blank">
+                                        En proceso
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="card w-100 h-100">
-                    <img src="iconos/Sportiva Sport.png" class="card-img-top" alt="...">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex">
+                        <div class="card w-100 h-100">
+                            <img src="iconos/Sportiva Sport.png" class="card-img-top" alt="...">
 
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title title text-center">Sportiva Sport</h5>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title text-center">Sportiva Sport</h5>
 
-                        <p class="card-text paragraph flex-grow-1">Proyecto para hackaton de frontend sobre una
-                            landing page para una tienda de deportes en el Mundial 2026.
-                        </p>
+                                <p class="card-text paragraph flex-grow-1">Proyecto para hackaton de frontend sobre una
+                                    landing page para una tienda de deportes en el Mundial 2026.
+                                </p>
 
-                        <div class="text-center">
-                            <a href="https://mauromilan.github.io/sportiva-store/"
-                                target="_blank"
-                                class="btn btn-primary">
-                                Ver
-                            </a>
+                                <div class="text-center">
+                                    <a href="https://mauromilan.github.io/sportiva-store/" target="_blank"
+                                        class="btn btn-primary">
+                                        Ver
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="card w-100 h-100">
-                    <img src="iconos/imgCafeAurora.png" class="card-img-top" alt="...">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex">
+                        <div class="card w-100 h-100">
+                            <img src="iconos/imgCafeAurora.png" class="card-img-top" alt="...">
 
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title title text-center">Cafetería Aurora</h5>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title text-center">Cafetería Aurora</h5>
 
-                        <p class="card-text paragraph flex-grow-1">
-                            Frontend de sitio web moderno y minimalista para una cafetería artesanal.
-                            Interfaz diseñada para experiencia de usuario
-                            fluida.
-                        </p>
+                                <p class="card-text paragraph flex-grow-1">
+                                    Frontend de sitio web moderno y minimalista para una cafetería artesanal.
+                                    Interfaz diseñada para experiencia de usuario
+                                    fluida.
+                                </p>
 
-                        <div class="text-center">
-                            <a href="https://mauromilan.github.io/Cafeteria/"
-                                target="_blank"
-                                class="btn btn-primary">
-                                Ver
-                            </a>
+                                <div class="text-center">
+                                    <a href="https://mauromilan.github.io/Cafeteria/" target="_blank"
+                                        class="btn btn-primary">
+                                        Ver
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-
-        </div>
-    </div>
-</section>
+        </section>
         <!------------Contact--------------->
         <section id="contact">
             <div class="container-fluid mt-5">
 
-                <div class="card container-fluid pb-3 p-3 w-75">
+                <div class="card container-fluid pb-3 p-3 col-md-8">
                     <div class="card-title title text-center mb-0 mt-0">
                         <h1>Contactame</h1>
                         <hr class="mb-0">
                     </div>
                     <div class="card-body container-fluid mt-0">
                         <form id="formContact">
-                            <div class="row">
-                                <div class="col-6">
+                            <div class="row-md row">
+                                <div class="col-md-6">
                                     <label for="iptName" class="form-label paragraph">Nombre:</label>
                                     <input type="text" class="form-control  " id="iptName"
                                         placeholder="Escribe tu nombre aquí..." required>
@@ -214,7 +234,7 @@
 
                                     </div>
                                 </div>
-                                <div class=" col-6">
+                                <div class=" col-md-6">
                                     <label for="iptLastName" class="form-label paragraph">Apellido:</label>
                                     <input type="text" class="form-control " id="iptLastName"
                                         placeholder="Escribe tu apellido aquí..." required>
@@ -227,7 +247,7 @@
                             </div>
 
                             <div class="row">
-                                <div class=" col-6">
+                                <div class=" col-md-6">
                                     <label for="iptEmail" class="form-label paragraph">Correo</label>
                                     <input type="text" class="form-control" id="iptEmail"
                                         placeholder="ejemplo@gmail.com" required>
@@ -236,7 +256,7 @@
 
                                     </div>
                                 </div>
-                                <div class=" col-6">
+                                <div class=" col-md-6">
                                     <label for="iptPhone" class="form-label paragraph">Telefono</label>
                                     <input type="text" class="form-control" id="iptPhone"
                                         placeholder="Ej. +528112345678" required>

@@ -7,22 +7,51 @@ body {
     background-color: #0A0A0A;
 }
 
-.navbar {
-    height: 60px;
-    align-items: end;
-    background-color: #0F1115;
-
+.NavOptionCheck{
+    transition: color 0.2s ease, transform 0.2s ease;
 }
 
+.NavOptionCheck:hover{
+color: #C9A227 !important;
+    transform: scale(1.1);
+}
+
+.navbar-toggler{
+    background-color: #C9A227;
+}
+
+.titleNav {
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #FAFAFA !important;
+}
+
+.optionNav {
+
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+        color: #A1A1AA !important;
+}
+
+
+
 .anchorNav {
-
+    display: inline-block;
+    width: 120px;
     text-decoration: none;
-
-    transition: color 0.3s ease;
+    text-align: center;
+    transition: color 0.3s ease,  transform 0.3s ease;
+   
 }
 
 .anchorNav:hover {
+    transform: scale(1.1);
     color: #C9A227;
+ 
+  
+  
 }
 
 
@@ -85,38 +114,34 @@ body {
 
 }
 
-.secondaryBtn:hover {
-    background-color: #FAFAFA;
-    font-family: "Manrope", sans-serif;
 
-}
 
 
 
 .primaryBtn {
     background-color: #C9A227;
-       font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 .primaryBtn:hover {
-    border:2px solid #C9A227;
+    border: 2px solid #C9A227;
     background-color: #d1a000;
-  
+
 
 }
 
-.secundaryBtn{
-           font-family: "Manrope", sans-serif;
-              background-color: #FAFAFA;
-                  color: #0F1115;
-            
+.secundaryBtn {
+    font-family: "Manrope", sans-serif;
+    background-color: #FAFAFA;
+    color: #0F1115;
+
 }
 
-.secundaryBtn:hover{
-       
-              background-color: #b3acac;
-         
-              
+.secundaryBtn:hover {
+
+    background-color: #b3acac;
+
+
 
 }
 
